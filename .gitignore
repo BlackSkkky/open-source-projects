@@ -1,0 +1,39 @@
+# 依赖
+node_modules/
+vendor/
+.pnpm-store/
+
+# 构建产物
+dist/
+dist-react/
+out/
+release/
+build/ffmpeg/*.exe
+build/ffmpeg/*.dll
+
+# 压缩包与安装包
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.exe
+*.msi
+*.dmg
+*.apk
+*.blockmap
+*.deb
+*.rpm
+
+# 本地配置与日志
+.env
+.env.*
+!.env.example
+*.log
+*.log.*
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
